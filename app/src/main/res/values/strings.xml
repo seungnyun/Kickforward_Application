@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KickForward</string>
+
+    <string name="server_url">http://192.168.0.24:8080</string>
+
+    <!-- LOG FILENAME-->
+    <string name="file_log_name">temp.log</string>
+
+    <string name="findUser"><u>계정 찾기</u></string>
+
+</resources>

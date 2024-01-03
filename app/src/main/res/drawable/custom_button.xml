@@ -1,0 +1,15 @@
+<!-- custom_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#000000" /> <!-- 눌렸을 때의 배경색 -->
+            <corners android:radius="15dp" /> <!-- 버튼 모서리 라운딩 -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#000000" /> <!-- 일반 배경색 -->
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+</selector>

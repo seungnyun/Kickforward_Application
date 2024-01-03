@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RentalActivity">
+
+    <!-- TMap 뷰 -->
+    <LinearLayout
+        android:id="@+id/linearLayoutTmap"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="4"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="2dp"
+            android:background="#DFDFDF"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="  킥보드 이용중"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="대여 종료"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_button"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

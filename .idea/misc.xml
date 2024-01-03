@@ -1,0 +1,53 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable-hdpi/custom_button3.xml" value="0.197" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable-hdpi/round_bottom_sheet_background.xml" value="0.11" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/bg_top_corner.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.11" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/custom_button.xml" value="0.3015" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/custom_button03.xml" value="0.1345" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/custom_button2.xml" value="0.197" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/custom_button3.xml" value="0.1345" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/custom_edittext.xml" value="0.205" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/custom_linearlayout.xml" value="0.197" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/edittext_custom_background.xml" value="0.2985" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/free_icon_u.xml" value="0.1355" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/profile.xml" value="0.1355" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/rounded_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/drawable/styles.xml" value="0.1355" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_info.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_join.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_join1.xml" value="0.30055579307396324" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_join2.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_license.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_login_or_join.xml" value="0.2497733454215775" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_rental.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_report.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_validation.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/actvitiy_fee.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/fragment_1p.xml" value="0.30055579307396324" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/fragment_2p.xml" value="0.30055579307396324" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/navi_header.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/test.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Kick_Login/app/src/main/res/menu/navi_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/kiasl/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_add.xml" value="0.176" />
+        <entry key="..\:/Users/kiasl/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_find_id.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/kiasl/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_find_password.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/kiasl/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_findid.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/kiasl/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/kiasl/AndroidStudioProjects/Kick_Login/app/src/main/res/layout/activity_mypage.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/kiasl/AndroidStudioProjects/Kick_Login/app/src/main/res/xml/network_security_config.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,54 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/drawer_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- 메인 콘텐츠 레이아웃 -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.Kick_Login">
+        </androidx.appcompat.widget.Toolbar>
+
+        <!-- TMap 뷰 -->
+        <LinearLayout
+            android:id="@+id/linearLayoutTmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:orientation="vertical"></LinearLayout>
+
+        <!-- 플로팅 버튼 추가 -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/gps_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="340dp"
+            android:src="@drawable/gps"
+            app:backgroundTint="@color/white"/>
+
+    </RelativeLayout>
+
+    <!-- 내비게이션 뷰 -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/navi_header"
+        app:menu="@menu/navi_menu" />
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

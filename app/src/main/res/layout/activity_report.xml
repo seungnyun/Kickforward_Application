@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:layout_gravity="left"
+                android:clickable="true"
+                android:onClick="backward"
+                android:src="@drawable/backward" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:text="고장신고"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/selectedLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이용내역을 선택해주세요"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기기 번호"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_rentLog"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button3"
+            android:text="이용내역 선택"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#EDEDED" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사진 첨부"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="킥보드 사진을 추가해주세요"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#717171"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="left"
+            android:src="@drawable/camera"
+            android:onClick="captureButton"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/reportTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="고장 사유를 간략히 적어주세요"
+            android:background="@drawable/custom_edittext"
+            android:padding="12dp"
+            android:textSize="12dp"
+            android:textColorHint="#717171"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/reportContent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="구체적인 고장 사유를 입력해주시면 빠른 처리에\n 도움이 돼요!"
+            android:background="@drawable/custom_edittext"
+            android:padding="12dp"
+            android:textSize="12dp"
+            android:textColorHint="#717171"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btn_report"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="피드백 전송"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,203 @@
+<!-- layout_activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/backward"
+        android:clickable="true"
+        android:onClick="backward"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="면허 정보를 입력해주세요"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="생년월일"
+        android:textSize="16dp"
+        android:textColor="#CCCCCC"/>
+
+
+    <EditText
+        android:id="@+id/birthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="(예: 19900101)"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="18dp"
+        android:backgroundTint="#CCCCCC"
+        android:textColorHint="#CCCCCC"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="면허증번호"
+        android:textSize="16dp"
+        android:textColor="#CCCCCC"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/regionCode"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:hint="00"
+            android:layout_marginLeft="0dp"
+            android:textSize="18dp"
+            android:maxLength="2"
+            android:inputType="number"
+            android:backgroundTint="#CCCCCC"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColorHint="#CCCCCC"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:textSize="18dp"
+            android:hint="00"
+            android:maxLength="2"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColorHint="#CCCCCC"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/sixDigits"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:textSize="18dp"
+            android:hint="000000"
+            android:maxLength="6"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColorHint="#CCCCCC"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/twoDigits"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:hint="00"
+            android:textSize="18dp"
+            android:maxLength="2"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColorHint="#CCCCCC"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginBottom="30dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="암호 일련번호"
+        android:textSize="16dp"
+        android:textColor="#CCCCCC"/>
+
+    <EditText
+        android:id="@+id/serialNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="암호일련번호 6자리"
+        android:layout_marginLeft="0dp"
+        android:textSize="18dp"
+        android:textColorHint="#CCCCCC"
+        android:backgroundTint="#CCCCCC"
+        android:layout_marginBottom="10dp"
+        android:capitalize="characters"
+        />
+
+<!--    &lt;!&ndash; 버튼 최하단으로 밀기위해 공간차지 &ndash;&gt;-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1" />-->
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:text="운전면허 인증하기"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        />
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:src="@drawable/license"/>-->
+
+</LinearLayout>
+
+
+
+
